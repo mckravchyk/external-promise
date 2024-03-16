@@ -23,7 +23,7 @@ await p;
 
 ## Documentation
 
-- [Documentation](./docs/api/external_promise)
+- [Documentation](./docs/api/external_promise.md)
 
 ## Practical Example
 
