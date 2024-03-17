@@ -1,6 +1,6 @@
 {
   "name": "external-promise",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A promise that can be resolved or rejected externally",
   "author": "Maciej Krawczyk",
   "homepage": "https://github.com/mckravchyk/external-promise",
