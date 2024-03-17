@@ -12,6 +12,12 @@ Initializes an external promise.
 
 ## Instance Methods
 
+### `.getPromise()`
+
+Returns `Promise` - returns the native Promise.
+
+Despite a common interface, ExternalPromise does not extend Promise for backward compatibility reasons. Obtaining the native Promise may be desirable when the Promise is to be exposed externally, i.e. as the return value of a method or a function. This is because instances of ExternalPromise will not pass `p instanceof Promise` check.
+
 ### `.getState()`
 
 Returns `string` - 'pending' | 'resolved' | 'rejected'

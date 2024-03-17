@@ -73,6 +73,11 @@ describe('External Promise', () => {
     expect(returnVal instanceof Promise).toBe(true);
   });
 
+  test('The native promise is returned', () => {
+    const p = new ExternalPromise<void>();
+    expect(p.getPromise() instanceof Promise).toBe(true);
+  });
+
   test('The promise is pending', async () => {
     const p = new ExternalPromise<void>();
     expect(p.getState()).toBe('pending');
