@@ -4,6 +4,10 @@
   "description": "A promise that can be resolved or rejected externally",
   "author": "Maciej Krawczyk",
   "homepage": "https://github.com/mckravchyk/external-promise",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mckravchyk/external-promise"
+  },
   "license": "MIT",
   "main": "./dist/external-promise.common.js",
   "module": "./dist/external-promise.mjs",
